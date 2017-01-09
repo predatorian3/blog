@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Phil&#39;s Blog - Predatorian3</title>
+    <link>https://predatorian3.github.com/tags/blog/index.xml</link>
+    <description>Recent content in Blog on Phil&#39;s Blog - Predatorian3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://predatorian3.github.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Initial Post</title>
+      <link>https://predatorian3.github.com/posts/Initial-Post/</link>
+      <pubDate>Wed, 04 Jan 2017 22:52:15 -0600</pubDate>
+      
+      <guid>https://predatorian3.github.com/posts/Initial-Post/</guid>
+      <description>&lt;p&gt;Welcome to my new blog hosted on GitHub Pages. This will be the start of a series of discussions, and thoughts, and learning that I will be going through.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
