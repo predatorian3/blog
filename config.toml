@@ -10,7 +10,7 @@ disqusShortname = "predatorian3-github-io"
 [params]
 	subtitle = "A blog of thoughts and learning"
 	[params.author]
-		name = "HPSTR"
+		name = "Phillip Dudley"
 		avatar = "/images/avatar.jpg"
 		bio = "A guy who does a lot of thinking. Click for more!"
 		github = "predatorian3/blog"
