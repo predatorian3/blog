@@ -2,51 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://predatorian3.github.com/about/</loc>
+    <loc>https://predatorian3.github.com/blog/about/</loc>
   </url>
   
   <url>
-    <loc>https://predatorian3.github.com/posts/Initial-Post/</loc>
+    <loc>https://predatorian3.github.com/blog/posts/Initial-Post/</loc>
     <lastmod>2017-01-04T22:52:15-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://predatorian3.github.com/tags/blog/</loc>
-    <lastmod>2017-01-04T22:52:15-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://predatorian3.github.com/categories/blog/</loc>
+    <loc>https://predatorian3.github.com/blog/tags/blog/</loc>
     <lastmod>2017-01-04T22:52:15-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://predatorian3.github.com/tags/blogging/</loc>
+    <loc>https://predatorian3.github.com/blog/categories/blog/</loc>
     <lastmod>2017-01-04T22:52:15-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://predatorian3.github.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://predatorian3.github.com/</loc>
+    <loc>https://predatorian3.github.com/blog/tags/blogging/</loc>
     <lastmod>2017-01-04T22:52:15-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://predatorian3.github.com/posts/</loc>
+    <loc>https://predatorian3.github.com/blog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/blog/</loc>
     <lastmod>2017-01-04T22:52:15-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://predatorian3.github.com/tags/</loc>
+    <loc>https://predatorian3.github.com/blog/posts/</loc>
+    <lastmod>2017-01-04T22:52:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/blog/tags/</loc>
     <priority>0</priority>
   </url>
   
