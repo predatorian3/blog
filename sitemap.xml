@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://predatorian3.github.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/posts/Initial-Post/</loc>
+    <lastmod>2017-01-04T22:52:15-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/categories/blog/</loc>
+    <lastmod>2017-01-04T22:52:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/tags/blog/</loc>
+    <lastmod>2017-01-04T22:52:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/tags/blogging/</loc>
+    <lastmod>2017-01-04T22:52:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/</loc>
+    <lastmod>2017-01-04T22:52:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/posts/</loc>
+    <lastmod>2017-01-04T22:52:15-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://predatorian3.github.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
