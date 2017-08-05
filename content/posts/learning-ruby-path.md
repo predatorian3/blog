@@ -2,7 +2,6 @@
 title: "Learning Ruby Path"
 date: 2017-08-05T13:55:46-05:00
 description: "A guided path to Learning Ruby"
-menu = "main"
 Categories = [
   "blog",
   "ruby",
