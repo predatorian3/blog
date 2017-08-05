@@ -1,4 +1,7 @@
 ---
+title: "Learning Ruby Path"
+date: 2017-08-05T13:55:46-05:00
+description: "A guided path to Learning Ruby"
 menu = "main"
 Categories = [
   "blog",
@@ -9,9 +12,6 @@ Tags = [
   "blog",
   "ruby",
 ]
-title: "Learning Ruby Path"
-date: 2017-08-05T13:55:46-05:00
-descriptoin: "A guided path to Learning Ruby"
 ---
 
 This was originally written in a Google Drive Document that was shared with a few people. However, I feel that it is time I "released" the document and shared it with anyone who wanted to learn Ruby the way I feel it should be learned. 
