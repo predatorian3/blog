@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Phil&#39;s Blog - Predatorian3</title>
+    <link>https://predatorian3.github.com/blog/categories/</link>
+    <description>Recent content in Categories on Phil&#39;s Blog - Predatorian3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 04 Jan 2017 22:52:15 -0600</lastBuildDate>
+    
+	<atom:link href="https://predatorian3.github.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://predatorian3.github.com/blog/categories/blog/</link>
+      <pubDate>Wed, 04 Jan 2017 22:52:15 -0600</pubDate>
+      
+      <guid>https://predatorian3.github.com/blog/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
