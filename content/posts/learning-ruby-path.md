@@ -1,12 +1,12 @@
 ---
 title: "Learning Ruby Path"
-date: 2017-08-05T13:55:46-05:00
-description: "A guided path to Learning Ruby"
-Categories = [
+date: "2017-08-05T13:55:46-05:00"
+Description: "A guided path to Learning Ruby"
+Categories: [
   "blog",
   "ruby",
 ]
-Tags = [
+Tags: [
   "blogging",
   "blog",
   "ruby",
