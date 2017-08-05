@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Phil&#39;s Blog - Predatorian3</title>
-    <link>https://predatorian3.github.com/blog/categories/blog/</link>
-    <description>Recent content in Blog on Phil&#39;s Blog - Predatorian3</description>
+    <title>Ruby on Phil&#39;s Blog - Predatorian3</title>
+    <link>https://predatorian3.github.com/blog/tags/ruby/</link>
+    <description>Recent content in Ruby on Phil&#39;s Blog - Predatorian3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sat, 05 Aug 2017 13:55:46 -0500</lastBuildDate>
     
-	<atom:link href="https://predatorian3.github.com/blog/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://predatorian3.github.com/blog/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://predatorian3.github.com/blog/posts/learning-ruby-path/</guid>
       <description>This was originally written in a Google Drive Document that was shared with a few people. However, I feel that it is time I &amp;ldquo;released&amp;rdquo; the document and shared it with anyone who wanted to learn Ruby the way I feel it should be learned.
 This isn&amp;rsquo;t going to be a tutorial like other sites, but more of a learning path, or guide to which documents, and ideas you should learn first.</description>
-    </item>
-    
-    <item>
-      <title>Initial Post</title>
-      <link>https://predatorian3.github.com/blog/posts/initial-post/</link>
-      <pubDate>Wed, 04 Jan 2017 22:52:15 -0600</pubDate>
-      
-      <guid>https://predatorian3.github.com/blog/posts/initial-post/</guid>
-      <description>Welcome to my new blog hosted on GitHub Pages. This will be the start of a series of discussions, and thoughts, and learning that I will be going through.</description>
     </item>
     
   </channel>
