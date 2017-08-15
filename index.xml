@@ -27,7 +27,7 @@ I currently work in the Health Care IT industry, mainly doing backend server sup
       <pubDate>Sat, 05 Aug 2017 15:43:23 -0500</pubDate>
       
       <guid>https://predatorian3.github.com/blog/posts/python-module-packaging/</guid>
-      <description>Python Module Packaging This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand.</description>
+      <description>This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand. This isn&amp;rsquo;t a how-to on how to do Python Packaging, but its an easy way to get started, and learning on your own.</description>
     </item>
     
     <item>
