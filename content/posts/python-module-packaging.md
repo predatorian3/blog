@@ -7,8 +7,6 @@ Categories: ["Development", "python",]
 menu: "main"
 ---
 
-# Python Module Packaging 
-
 This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand. This isn't a how-to on how to do Python Packaging, but its an easy way to get started, and learning on your own.  
 
 There is now a couple places that are trying to set forth a standardized packing layout for Python modules. These links are as follows: 
