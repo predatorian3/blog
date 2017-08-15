@@ -5,37 +5,37 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Initial Post &#8211; Phil&#39;s Blog - Predatorian3</title>
-<meta name="description" content="Initial Post for the new blog.">
+<title>Python Module Packaging &#8211; Phil&#39;s Blog - Predatorian3</title>
+<meta name="description" content="A brief intro to Python Module Packaging">
 
     
 
-<meta name="keywords" content="blogging, blog">
+<meta name="keywords" content="Development, python">
 
 
 
-<meta name="twitter:title" content="Initial Post">
-<meta name="twitter:description" content="Initial Post for the new blog.">
+<meta name="twitter:title" content="Python Module Packaging">
+<meta name="twitter:description" content="A brief intro to Python Module Packaging">
 
 
 
 
 <meta property="og:type" content="article">
-<meta property="og:title" content="Initial Post">
-<meta property="og:description" content="Initial Post for the new blog.">
-<meta property="og:url" content="https://predatorian3.github.com/blog/posts/initial-post/">
+<meta property="og:title" content="Python Module Packaging">
+<meta property="og:description" content="A brief intro to Python Module Packaging">
+<meta property="og:url" content="https://predatorian3.github.com/blog/posts/python-module-packaging/">
 <meta property="og:site_name" content="Phil&#39;s Blog - Predatorian3">
 
 
 
-  <meta property="og:updated_time" content="2017-01-04T22:52:15-06:00"/>
+  <meta property="og:updated_time" content="2017-08-05T15:43:23-05:00"/>
 
 
 
 
 
 
-<link rel="canonical" href="https://predatorian3.github.com/blog/posts/initial-post/">
+<link rel="canonical" href="https://predatorian3.github.com/blog/posts/python-module-packaging/">
 
 
 <meta name="HandheldFriendly" content="True">
@@ -114,30 +114,44 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="/blog/posts/initial-post/" rel="bookmark" title="Initial Post">Initial Post</a></h1>
+          <h1 class="entry-title"><a href="/blog/posts/python-module-packaging/" rel="bookmark" title="Python Module Packaging">Python Module Packaging</a></h1>
         
          
-        <h2><span class="entry-date date published"><time datetime="2017-01-04 22:52:15 -0600 CST">January 4, 2017</time></span></h2>
+        <h2><span class="entry-date date published"><time datetime="2017-08-05 15:43:23 -0500 CDT">August 5, 2017</time></span></h2>
         
       <p class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
-        Reading time ~1 minute
+        Reading time ~2 minutes
     </p>
       </div>
     </header>
     <div class="entry-content">
-      <p>Welcome to my new blog hosted on GitHub Pages. This will be the start of a series of discussions, and thoughts, and learning that I will be going through.</p>
+      
+
+<h1 id="python-module-packaging">Python Module Packaging</h1>
+
+<p>This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand. This isn&rsquo;t a how-to on how to do Python Packaging, but its an easy way to get started, and learning on your own.</p>
+
+<p>There is now a couple places that are trying to set forth a standardized packing layout for Python modules. These links are as follows:</p>
+
+<ol>
+<li><a href="https://python-packaging.readthedocs.io/en/latest/">How to Package Your Python Code</a></li>
+<li><a href="https://packaging.python.org/tutorials/distributing-packages/">Python&rsquo;s PyPI Packaging and Distribution Guide</a></li>
+<li><a href="https://docs.python.org/3/tutorial/modules.html">Python Docs 3 Modules and Packages Tutorial</a></li>
+</ol>
+
+<p>I order these as such so that you can blindly accept the first link and follow its methods, and recommendations and see how its all pieced together. Then using the second link, go through and learn more about each piece of the module you created previously. The third link is the official Python 3 Documentation on Python Modules and Packaging for distribution. This one to me seems a bit vague and confusing to a newb. I also haven&rsquo;t seen any <em>OFFICIAL</em> Python Package generation tool, similar to Ruby&rsquo;s bundler, and NodeJS&rsquo; npm tool. I might not be searching the correct terms, but at this point, I know what I&rsquo;m doing.</p>
 
       <footer class="entry-meta">
           
-        <span class="entry-tags"><a href="/blog/tags/#blogging" title="Pages tagged blogging" class="tag"><span class="term">blogging</span></a><a href="/blog/tags/#blog" title="Pages tagged blog" class="tag"><span class="term">blog</span></a></span>
+        <span class="entry-tags"><a href="/blog/tags/#development" title="Pages tagged development" class="tag"><span class="term">development</span></a><a href="/blog/tags/#python" title="Pages tagged python" class="tag"><span class="term">python</span></a></span>
         
         
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpredatorian3.github.com%2fblog%2fposts%2finitial-post%2f" target="_blank" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=https%3a%2f%2fpredatorian3.github.com%2fblog%2fposts%2finitial-post%2f" target="_blank" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=https%3a%2f%2fpredatorian3.github.com%2fblog%2fposts%2finitial-post%2f" target="_blank" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpredatorian3.github.com%2fblog%2fposts%2fpython-module-packaging%2f" target="_blank" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=https%3a%2f%2fpredatorian3.github.com%2fblog%2fposts%2fpython-module-packaging%2f" target="_blank" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=https%3a%2f%2fpredatorian3.github.com%2fblog%2fposts%2fpython-module-packaging%2f" target="_blank" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
   </ul>
 </div>
 
