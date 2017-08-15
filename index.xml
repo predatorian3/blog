@@ -6,7 +6,7 @@
     <description>Recent content on Phil&#39;s Blog - Predatorian3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 05 Aug 2017 13:55:46 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 05 Aug 2017 15:43:23 -0500</lastBuildDate>
     
 	<atom:link href="https://predatorian3.github.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,15 @@
       <guid>https://predatorian3.github.com/blog/about/</guid>
       <description>This is a blog dedicated to thoughts I have about technology and things I learn.
 I currently work in the Health Care IT industry, mainly doing backend server support providing tools for other teams to make their jobs and lives easier. Some of these tools include Chef, Splunk or Elastic Stack, Zabbix, Jenkins, and RunDeck. I also do a lot of work in Amazon AWS, and dabble with Google Cloud Platform, Microsoft Azure, DigitalOcean, and OpenStack I do not perscribe to the title DevOps anything.</description>
+    </item>
+    
+    <item>
+      <title>Python Module Packaging</title>
+      <link>https://predatorian3.github.com/blog/posts/python-module-packaging/</link>
+      <pubDate>Sat, 05 Aug 2017 15:43:23 -0500</pubDate>
+      
+      <guid>https://predatorian3.github.com/blog/posts/python-module-packaging/</guid>
+      <description>Python Module Packaging This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand.</description>
     </item>
     
     <item>

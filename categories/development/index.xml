@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Phil&#39;s Blog - Predatorian3</title>
+    <link>https://predatorian3.github.com/blog/categories/development/</link>
+    <description>Recent content in Development on Phil&#39;s Blog - Predatorian3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 05 Aug 2017 15:43:23 -0500</lastBuildDate>
+    
+	<atom:link href="https://predatorian3.github.com/blog/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Module Packaging</title>
+      <link>https://predatorian3.github.com/blog/posts/python-module-packaging/</link>
+      <pubDate>Sat, 05 Aug 2017 15:43:23 -0500</pubDate>
+      
+      <guid>https://predatorian3.github.com/blog/posts/python-module-packaging/</guid>
+      <description>Python Module Packaging This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand.</description>
+    </item>
+    
+  </channel>
+</rss>
