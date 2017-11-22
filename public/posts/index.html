@@ -37,7 +37,7 @@
     <meta property="og:image" content="https://predatorian3.github.com/blog/abstract-2.jpg" />
 
 
-  <meta property="og:updated_time" content="2017-08-05T15:43:23-05:00"/>
+  <meta property="og:updated_time" content="2017-11-21T22:08:07-06:00"/>
 
 
 
@@ -61,7 +61,7 @@
 
 <meta http-equiv="cleartype" content="on">
 
-<meta name="generator" content="Hugo 0.26-DEV" />
+<meta name="generator" content="Hugo 0.18-DEV" />
 
 <script src="/blog/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
@@ -107,7 +107,6 @@
 			<a href="#">Posts</a>
 			<ul class="dl-submenu">
 				<li><a href="/blog/posts/">All Posts</a></li>
-                                <li><a href="/blog/stories/">All Stories</a></li>
 				<li><a href="/blog/tags/">All Tags</a></li>
 			</ul>
 		</li>
@@ -141,6 +140,68 @@
 </div>
 
 <div id="main" role="main">
+
+<article class="hentry">
+  <header>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2017-11-21 22:08:07 -0600 CST"><a href="/blog/posts/zero-to-chef-1/">Nov 21, 2017</a></time></span>
+        
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        Reading time ~5 minutes
+      </span>
+    </div>
+    
+	<h1 class="entry-title"><a href="/blog/posts/zero-to-chef-1/" rel="bookmark" title="zero to chef 1" itemprop="url">zero to chef 1</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    
+
+<h1 id="zero-to-chef">Zero to Chef</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>This is the first in a series of blog posts that I will be publishing to help me get this out of my head, and also to primarily help you learn new technologies and get your foot in the door with them. Some of these things you might already be familiar with, and if you are that&rsquo;s great. I would still suggest going through the basics, and just anything you know. I am a firm believer in redoing the basics multiple times but applying new ideas to them is key to understanding anything.</p>
+
+<p>There will be a lot of links in this first post. A lot of them are for awareness, but the actual links you&rsquo;ll want to be concerned with are in the meat of the post.</p>
+
+<p>If you have any suggestions or other tips, please post on the blog, or visit the Blog Source code and open an Issue with your suggestions. These posts are my experience and are not a definitive truth. As with most blogs, follow with a grain of salt.</p>
+
+<h2 id="infrastructure-setup">Infrastructure Setup.</h2>
+
+<h3 id="setting-up-virtualbox">Setting up Virtualbox</h3>
+
+<p><a href="https://www.virtualbox.org/wiki/Downloads">Download Virtualbox</a> from the official site. There are some Linux packages that may be provided by the packaging system. Both should work as expected. The Extensions pack may also be included in the package manager, otherwise download it directly from the Virtualbox Download site for the appropriate version of Virtualbox you are running. Your network interfaces will be restarted, but shouldn&rsquo;t impact anything you&rsquo;re doing. Once Virtualbox is installed, load the Extensions pack, and now you&rsquo;re ready to run Virtual Machines. You can play with this a little to become more familiar and the powerful VBoxManage command if its in your <code>$PATH</code> or <code>%PATH%</code>.</p>
+
+<h3 id="setting-up-vagrant">Setting up Vagrant</h3>
+
+<p><a href="https://www.vagrantup.com/downloads.html">Download Vagrant</a> from their official website. Installing this will require that the system be restarted. I&rsquo;m not sure why, but I&rsquo;ve always had to do it on my Windows machines, and I just do it on my Linux machines as well to make sure nothing funky happens. Vagrant is pretty straight forward to install, and automatically comes out of the box with Virtualbox support and VMWare.</p>
+
+<p>Here is where I am going to tell you to go through the Introduction or Getting Started for Vagrant to become familiar with the basics of Vagrant. There is also <a href="https://www.vagrantup.com/docs/virtualbox/">a page or two</a> which shows the flexibility and power of the VBoxManage command using the customize command. This will allow you to customize the virtual machine by adding more RAM, or Hard Drive space or additional network interfaces. Anything possible with the VBoxManage command is possible with this.</p>
+
+<p>Make sure you have a Vagrant Box by this part that you&rsquo;re comfortable to use. I typically use the latest version of CentOS which is currently CentOS 7 which is rocking the 3.* kernel. You can use Ubuntu as well, but my instructions will be CentOS based. YMMV.</p>
+
+<h3 id="setting-up-chefdk">Setting up ChefDK</h3>
+
+<p>Since is a <code>Zero to Chef</code> series of posts, we&rsquo;ll be using Chef as our Configuration Management Tool. You could potentially use anything you wanted, and the ChefDK provides a lot of flexibility with Test-Kitchen included. I&rsquo;m not going to get into that debate, I&rsquo;m using Chef. End of story.</p>
+
+<p><a href="https://downloads.chef.io/chefdk">Download the ChefDK</a> and install it for your operating system. I will tell you to use the latest, but in a production environment, or work place, you&rsquo;ll want to use the version that has the version of Chef-Client closest to what you&rsquo;re using so you&rsquo;re not developing with newer features than what&rsquo;s actually there. Installing the ChefDK is pretty straight forward and may take a long time on Windows machines. I don&rsquo;t know why again, but my theory is that its building the native libraries using the Ruby DevKit for Chef so they&rsquo;re not having to ship binaries all over the place.</p>
+
+<h2 id="is-that-it">Is that it?</h2>
+
+<p>Setting up to use Chef, and do development is pretty easy so far. We&rsquo;ll worry about hooking into a Chef-Server and deploying stuff later. For now, we&rsquo;re going to focus on good design, good development practices and habits such as deciding what your Chef-Cookbook is going to do, what you need to test for, and the infrastructure you&rsquo;re deploying to. This will dictate how you&rsquo;ll prepare your systems for use.</p>
+
+<p>For now, take a few days to go through Virtualbox, Vagrant, and ChefDK by executing a few commands on your system, and see the command outputs they give you. Reading the docs is also vital at this stage as well. Just coming into your own with these technologies is a bit overwhelming to new people, and introduces a lot of new ideas hopefully. You can run all sorts of servers using Virtualbox, and operating systems. Then you can also control all sorts of other infrastructure pieces such as Docker, AWS, OpenStack, Google Cloud Platform, Azure, Digital Ocean, Linode, RackSpace, or even Hyper-V and VMWare&rsquo;s vSphere. Most of these are cloud-like technologies if not entirely.</p>
+
+<p>You can even control Windows Machines using Vagrant, but typically most people use Linux. Your reasons may vary, but for me its licensing issues, and being a cheapo that I am, I don&rsquo;t want to buy an OEM license. So, for the remainder of this series, we&rsquo;ll be focusing on Virtualbox controlled by Vagrant using CentOS 7 Linux. Then we&rsquo;ll use ChefDK to run our environments.</p>
+
+<p><em><strong>Next</strong></em> post in the series will cover how to use Test-Kitchen, what ServerSpec and InSpec are, and what ChefSpec is. There are other tools such as Foodcritic, and Rubocop to also check your code and perform integration tests.</p>
+
+  </div>
+</article>
 
 <article class="hentry">
   <header>
@@ -355,7 +416,7 @@
     
     <div class="entry-meta">
          
-		<span class="entry-date date published updated"><time datetime="2017-01-04 22:52:15 -0600 CST"><a href="/blog/posts/initial-post/">Jan 4, 2017</a></time></span>
+		<span class="entry-date date published updated"><time datetime="2017-01-04 22:52:15 -0600 CST"><a href="/blog/posts/Initial-Post/">Jan 4, 2017</a></time></span>
         
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
@@ -363,7 +424,7 @@
       </span>
     </div>
     
-	<h1 class="entry-title"><a href="/blog/posts/initial-post/" rel="bookmark" title="Initial Post" itemprop="url">Initial Post</a></h1>
+	<h1 class="entry-title"><a href="/blog/posts/Initial-Post/" rel="bookmark" title="Initial Post" itemprop="url">Initial Post</a></h1>
     
   </header>
   <div class="entry-content">

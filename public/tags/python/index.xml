@@ -2,14 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Phil&#39;s Blog - Predatorian3</title>
-    <link>https://predatorian3.github.com/blog/tags/python/</link>
+    <link>https://predatorian3.github.com/blog/tags/python/index.xml</link>
     <description>Recent content in Python on Phil&#39;s Blog - Predatorian3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 05 Aug 2017 15:43:23 -0500</lastBuildDate>
-    
-	<atom:link href="https://predatorian3.github.com/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://predatorian3.github.com/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Python Module Packaging</title>
@@ -17,7 +14,18 @@
       <pubDate>Sat, 05 Aug 2017 15:43:23 -0500</pubDate>
       
       <guid>https://predatorian3.github.com/blog/posts/python-module-packaging/</guid>
-      <description>This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand. This isn&amp;rsquo;t a how-to on how to do Python Packaging, but its an easy way to get started, and learning on your own.</description>
+      <description>&lt;p&gt;This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand. This isn&amp;rsquo;t a how-to on how to do Python Packaging, but its an easy way to get started, and learning on your own.&lt;/p&gt;
+
+&lt;p&gt;There is now a couple places that are trying to set forth a standardized packing layout for Python modules. These links are as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://python-packaging.readthedocs.io/en/latest/&#34;&gt;How to Package Your Python Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://packaging.python.org/tutorials/distributing-packages/&#34;&gt;Python&amp;rsquo;s PyPI Packaging and Distribution Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/tutorial/modules.html&#34;&gt;Python Docs 3 Modules and Packages Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I order these as such so that you can blindly accept the first link and follow its methods, and recommendations and see how its all pieced together. Then using the second link, go through and learn more about each piece of the module you created previously. The third link is the official Python 3 Documentation on Python Modules and Packaging for distribution. This one to me seems a bit vague and confusing to a newb. I also haven&amp;rsquo;t seen any &lt;em&gt;OFFICIAL&lt;/em&gt; Python Package generation tool, similar to Ruby&amp;rsquo;s bundler, and NodeJS&amp;rsquo; npm tool. I might not be searching the correct terms, but at this point, I know what I&amp;rsquo;m doing.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

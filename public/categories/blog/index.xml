@@ -2,14 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Phil&#39;s Blog - Predatorian3</title>
-    <link>https://predatorian3.github.com/blog/categories/blog/</link>
+    <link>https://predatorian3.github.com/blog/categories/blog/index.xml</link>
     <description>Recent content in Blog on Phil&#39;s Blog - Predatorian3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 05 Aug 2017 13:55:46 -0500</lastBuildDate>
-    
-	<atom:link href="https://predatorian3.github.com/blog/categories/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://predatorian3.github.com/blog/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Learning Ruby Path</title>
@@ -17,17 +14,172 @@
       <pubDate>Sat, 05 Aug 2017 13:55:46 -0500</pubDate>
       
       <guid>https://predatorian3.github.com/blog/posts/learning-ruby-path/</guid>
-      <description>This was originally written in a Google Drive Document that was shared with a few people. However, I feel that it is time I &amp;ldquo;released&amp;rdquo; the document and shared it with anyone who wanted to learn Ruby the way I feel it should be learned.
-This isn&amp;rsquo;t going to be a tutorial like other sites, but more of a learning path, or guide to which documents, and ideas you should learn first.</description>
+      <description>
+
+&lt;p&gt;This was originally written in a Google Drive Document that was shared with a few people. However, I feel that it is time I &amp;ldquo;released&amp;rdquo; the document and shared it with anyone who wanted to learn Ruby the way I feel it should be learned.&lt;/p&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t going to be a tutorial like other sites, but more of a learning path, or guide to which documents, and ideas you should learn first. If I had something like this when I was first beginning to learn Ruby, I would&amp;rsquo;ve seen the goal, and known what to use in some of my projects. This is a little biased, but, hey, I wrote this.&lt;/p&gt;
+
+&lt;h1 id=&#34;learning-ruby-by-phil&#34;&gt;Learning Ruby by Phil&lt;/h1&gt;
+
+&lt;p&gt;First, while starting out, you should know where to get help, not necessarily answers. My favorite place to go for help is IRC, specifically Freenode. The #ruby channel and the community are pretty helpful. I will caution that before you make posts in the channel, you should learn how to ask your question, and be sure you exhausted all other options such as Googling, or web searching, books, looking at other people&amp;rsquo;s code and asking those around you.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://webchat.freenode.net/?channels=%23ruby%2C%23ruby-community%2C%23ruby-offtopic&amp;amp;uio=d4&#34;&gt;Freenode&amp;rsquo;s WebChat&lt;/a&gt; is the place get quick access to IRC without having a client on your system.&lt;/p&gt;
+
+&lt;h2 id=&#34;learn-the-basics-of-ruby&#34;&gt;Learn the Basics of Ruby!&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://ruby-doc.com/docs/ProgrammingRuby/&#34;&gt;http://ruby-doc.com/docs/ProgrammingRuby/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tutorialspoint.com/ruby/&#34;&gt;http://www.tutorialspoint.com/ruby/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeacademy.com/learn/ruby&#34;&gt;https://codeacademy.com/learn/ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;learn-the-interactive-ruby-shell-irb&#34;&gt;Learn the Interactive RuBy Shell (IRB)!&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://ruby-doc.com/docs/ProgrammingRuby/html/irb.html&#34;&gt;http://ruby-doc.com/docs/ProgrammingRuby/html/irb.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tutorialspoint.com/ruby/interactive_ruby.html&#34;&gt;https://tutorialspoint.com/ruby/interactive_ruby.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;organize-your-code-rubygems&#34;&gt;Organize your code, RubyGems!&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://guides.rubygems.org/&#34;&gt;http://guides.rubygems.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bundler.io&#34;&gt;http://bundler.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;learn-to-read-the-documentation&#34;&gt;Learn to read the documentation!&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;RubyDocs
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://ruby-doc.org/&#34;&gt;https://ruby-doc.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;RDoc
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://rdoc.github.io/rdoc/&#34;&gt;https://rdoc.github.io/rdoc/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;YarDoc
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://yardoc.org/&#34;&gt;http://yardoc.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;RubyGems
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://rubygems.org/&#34;&gt;https://rubygems.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;command-line-drivers-and-processors&#34;&gt;Command-Line Drivers and Processors!&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Thor
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://whatisthor.com/&#34;&gt;http://whatisthor.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;OptionParser
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://ruby-doc.org/stdlib-2.4.1/libdoc/optparse/rdoc/OptionParser.html&#34;&gt;http://ruby-doc.org/stdlib-2.4.1/libdoc/optparse/rdoc/OptionParser.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;ARGV
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://ruby-doc.org/core-2.4.1/ARGF.html#method-i-argv&#34;&gt;https://ruby-doc.org/core-2.4.1/ARGF.html#method-i-argv&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;working-with-certain-file-types&#34;&gt;Working with certain file types!&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;CSV
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://ruby-doc.org/stdlib-2.4.0/libdoc/csv/rdoc/CSV.html&#34;&gt;https://ruby-doc.org/stdlib-2.4.0/libdoc/csv/rdoc/CSV.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;YAML
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://ruby-doc.org/stdlib-2.4.0/libdoc/yaml/rdoc/YAML.html&#34;&gt;https://ruby-doc.org/stdlib-2.4.0/libdoc/yaml/rdoc/YAML.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yaml.org/YAML_for_ruby.html&#34;&gt;http://yaml.org/YAML_for_ruby.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;TOML
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jm/toml&#34;&gt;https://github.com/jm/toml&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;JSON
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://ruby-doc.org/stdlib-2.4.0/libdoc/json/rdoc/JSON.html&#34;&gt;https://ruby-doc.org/stdlib-2.4.0/libdoc/json/rdoc/JSON.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;XML
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.germane-software.com/software/rexml/docs/tutorial.html&#34;&gt;http://www.germane-software.com/software/rexml/docs/tutorial.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nokogiri.org&#34;&gt;http://www.nokogiri.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;web-api-consumption&#34;&gt;Web API Consumption!&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ruby&amp;rsquo;s net/http
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://rubyinside.com/nethttp-cheat-sheet-2940.html&#34;&gt;http://rubyinside.com/nethttp-cheat-sheet-2940.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://zetcode.com/web/rubynethttp/&#34;&gt;http://zetcode.com/web/rubynethttp/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sitepoint.com/ruby-net-http-library/&#34;&gt;https://www.sitepoint.com/ruby-net-http-library/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;SOAP Consumption
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://savonrb.com/version2/&#34;&gt;http://savonrb.com/version2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;REST Consumption
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rest-client/rest-client/blob/master/README.md&#34;&gt;https://github.com/rest-client/rest-client/blob/master/README.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;web-api-programming&#34;&gt;Web API Programming&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Sinatra
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sinatrarb.com/&#34;&gt;http://www.sinatrarb.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Hanami
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://hanamirb.org/&#34;&gt;http://hanamirb.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Ruby on Rails
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://rubyonrails.org/&#34;&gt;http://rubyonrails.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.codeacademy.com/learn/learn-rails&#34;&gt;https://www.codeacademy.com/learn/learn-rails&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Hopefully this document helps those who want a structured guide of what to learn and where from for starters. Learning how to Google the appropriate questions as well will help out in the search for answers.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Initial Post</title>
-      <link>https://predatorian3.github.com/blog/posts/initial-post/</link>
+      <link>https://predatorian3.github.com/blog/posts/Initial-Post/</link>
       <pubDate>Wed, 04 Jan 2017 22:52:15 -0600</pubDate>
       
-      <guid>https://predatorian3.github.com/blog/posts/initial-post/</guid>
-      <description>Welcome to my new blog hosted on GitHub Pages. This will be the start of a series of discussions, and thoughts, and learning that I will be going through.</description>
+      <guid>https://predatorian3.github.com/blog/posts/Initial-Post/</guid>
+      <description>&lt;p&gt;Welcome to my new blog hosted on GitHub Pages. This will be the start of a series of discussions, and thoughts, and learning that I will be going through.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

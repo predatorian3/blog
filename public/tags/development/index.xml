@@ -2,14 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Phil&#39;s Blog - Predatorian3</title>
-    <link>https://predatorian3.github.com/blog/tags/development/</link>
+    <link>https://predatorian3.github.com/blog/tags/development/index.xml</link>
     <description>Recent content in Development on Phil&#39;s Blog - Predatorian3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 05 Aug 2017 15:43:23 -0500</lastBuildDate>
+    <atom:link href="https://predatorian3.github.com/blog/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
-	<atom:link href="https://predatorian3.github.com/blog/tags/development/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>zero to chef 1</title>
+      <link>https://predatorian3.github.com/blog/posts/zero-to-chef-1/</link>
+      <pubDate>Tue, 21 Nov 2017 22:08:07 -0600</pubDate>
+      
+      <guid>https://predatorian3.github.com/blog/posts/zero-to-chef-1/</guid>
+      <description>
+
+&lt;h1 id=&#34;zero-to-chef&#34;&gt;Zero to Chef&lt;/h1&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;This is the first in a series of blog posts that I will be publishing to help me get this out of my head, and also to primarily help you learn new technologies and get your foot in the door with them. Some of these things you might already be familiar with, and if you are that&amp;rsquo;s great. I would still suggest going through the basics, and just anything you know. I am a firm believer in redoing the basics multiple times but applying new ideas to them is key to understanding anything.&lt;/p&gt;
+
+&lt;p&gt;There will be a lot of links in this first post. A lot of them are for awareness, but the actual links you&amp;rsquo;ll want to be concerned with are in the meat of the post.&lt;/p&gt;
+
+&lt;p&gt;If you have any suggestions or other tips, please post on the blog, or visit the Blog Source code and open an Issue with your suggestions. These posts are my experience and are not a definitive truth. As with most blogs, follow with a grain of salt.&lt;/p&gt;
+
+&lt;h2 id=&#34;infrastructure-setup&#34;&gt;Infrastructure Setup.&lt;/h2&gt;
+
+&lt;h3 id=&#34;setting-up-virtualbox&#34;&gt;Setting up Virtualbox&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;&gt;Download Virtualbox&lt;/a&gt; from the official site. There are some Linux packages that may be provided by the packaging system. Both should work as expected. The Extensions pack may also be included in the package manager, otherwise download it directly from the Virtualbox Download site for the appropriate version of Virtualbox you are running. Your network interfaces will be restarted, but shouldn&amp;rsquo;t impact anything you&amp;rsquo;re doing. Once Virtualbox is installed, load the Extensions pack, and now you&amp;rsquo;re ready to run Virtual Machines. You can play with this a little to become more familiar and the powerful VBoxManage command if its in your &lt;code&gt;$PATH&lt;/code&gt; or &lt;code&gt;%PATH%&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-up-vagrant&#34;&gt;Setting up Vagrant&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.vagrantup.com/downloads.html&#34;&gt;Download Vagrant&lt;/a&gt; from their official website. Installing this will require that the system be restarted. I&amp;rsquo;m not sure why, but I&amp;rsquo;ve always had to do it on my Windows machines, and I just do it on my Linux machines as well to make sure nothing funky happens. Vagrant is pretty straight forward to install, and automatically comes out of the box with Virtualbox support and VMWare.&lt;/p&gt;
+
+&lt;p&gt;Here is where I am going to tell you to go through the Introduction or Getting Started for Vagrant to become familiar with the basics of Vagrant. There is also &lt;a href=&#34;https://www.vagrantup.com/docs/virtualbox/&#34;&gt;a page or two&lt;/a&gt; which shows the flexibility and power of the VBoxManage command using the customize command. This will allow you to customize the virtual machine by adding more RAM, or Hard Drive space or additional network interfaces. Anything possible with the VBoxManage command is possible with this.&lt;/p&gt;
+
+&lt;p&gt;Make sure you have a Vagrant Box by this part that you&amp;rsquo;re comfortable to use. I typically use the latest version of CentOS which is currently CentOS 7 which is rocking the 3.* kernel. You can use Ubuntu as well, but my instructions will be CentOS based. YMMV.&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-up-chefdk&#34;&gt;Setting up ChefDK&lt;/h3&gt;
+
+&lt;p&gt;Since is a &lt;code&gt;Zero to Chef&lt;/code&gt; series of posts, we&amp;rsquo;ll be using Chef as our Configuration Management Tool. You could potentially use anything you wanted, and the ChefDK provides a lot of flexibility with Test-Kitchen included. I&amp;rsquo;m not going to get into that debate, I&amp;rsquo;m using Chef. End of story.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://downloads.chef.io/chefdk&#34;&gt;Download the ChefDK&lt;/a&gt; and install it for your operating system. I will tell you to use the latest, but in a production environment, or work place, you&amp;rsquo;ll want to use the version that has the version of Chef-Client closest to what you&amp;rsquo;re using so you&amp;rsquo;re not developing with newer features than what&amp;rsquo;s actually there. Installing the ChefDK is pretty straight forward and may take a long time on Windows machines. I don&amp;rsquo;t know why again, but my theory is that its building the native libraries using the Ruby DevKit for Chef so they&amp;rsquo;re not having to ship binaries all over the place.&lt;/p&gt;
+
+&lt;h2 id=&#34;is-that-it&#34;&gt;Is that it?&lt;/h2&gt;
+
+&lt;p&gt;Setting up to use Chef, and do development is pretty easy so far. We&amp;rsquo;ll worry about hooking into a Chef-Server and deploying stuff later. For now, we&amp;rsquo;re going to focus on good design, good development practices and habits such as deciding what your Chef-Cookbook is going to do, what you need to test for, and the infrastructure you&amp;rsquo;re deploying to. This will dictate how you&amp;rsquo;ll prepare your systems for use.&lt;/p&gt;
+
+&lt;p&gt;For now, take a few days to go through Virtualbox, Vagrant, and ChefDK by executing a few commands on your system, and see the command outputs they give you. Reading the docs is also vital at this stage as well. Just coming into your own with these technologies is a bit overwhelming to new people, and introduces a lot of new ideas hopefully. You can run all sorts of servers using Virtualbox, and operating systems. Then you can also control all sorts of other infrastructure pieces such as Docker, AWS, OpenStack, Google Cloud Platform, Azure, Digital Ocean, Linode, RackSpace, or even Hyper-V and VMWare&amp;rsquo;s vSphere. Most of these are cloud-like technologies if not entirely.&lt;/p&gt;
+
+&lt;p&gt;You can even control Windows Machines using Vagrant, but typically most people use Linux. Your reasons may vary, but for me its licensing issues, and being a cheapo that I am, I don&amp;rsquo;t want to buy an OEM license. So, for the remainder of this series, we&amp;rsquo;ll be focusing on Virtualbox controlled by Vagrant using CentOS 7 Linux. Then we&amp;rsquo;ll use ChefDK to run our environments.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Next&lt;/strong&gt;&lt;/em&gt; post in the series will cover how to use Test-Kitchen, what ServerSpec and InSpec are, and what ChefSpec is. There are other tools such as Foodcritic, and Rubocop to also check your code and perform integration tests.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Python Module Packaging</title>
@@ -17,7 +64,18 @@
       <pubDate>Sat, 05 Aug 2017 15:43:23 -0500</pubDate>
       
       <guid>https://predatorian3.github.com/blog/posts/python-module-packaging/</guid>
-      <description>This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand. This isn&amp;rsquo;t a how-to on how to do Python Packaging, but its an easy way to get started, and learning on your own.</description>
+      <description>&lt;p&gt;This is something that baffled me for a long while because when I would learn about Python, I would just end up with a ton of .py files all over that were named something stupid. Then whn it came to wanting to distribute my Python script with its dependencies, I had no idea how to do it, and forced my users to download their dependencies by hand. This isn&amp;rsquo;t a how-to on how to do Python Packaging, but its an easy way to get started, and learning on your own.&lt;/p&gt;
+
+&lt;p&gt;There is now a couple places that are trying to set forth a standardized packing layout for Python modules. These links are as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://python-packaging.readthedocs.io/en/latest/&#34;&gt;How to Package Your Python Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://packaging.python.org/tutorials/distributing-packages/&#34;&gt;Python&amp;rsquo;s PyPI Packaging and Distribution Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/tutorial/modules.html&#34;&gt;Python Docs 3 Modules and Packages Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I order these as such so that you can blindly accept the first link and follow its methods, and recommendations and see how its all pieced together. Then using the second link, go through and learn more about each piece of the module you created previously. The third link is the official Python 3 Documentation on Python Modules and Packaging for distribution. This one to me seems a bit vague and confusing to a newb. I also haven&amp;rsquo;t seen any &lt;em&gt;OFFICIAL&lt;/em&gt; Python Package generation tool, similar to Ruby&amp;rsquo;s bundler, and NodeJS&amp;rsquo; npm tool. I might not be searching the correct terms, but at this point, I know what I&amp;rsquo;m doing.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
